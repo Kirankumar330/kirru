@@ -1,0 +1,72 @@
+html
+ {
+ 	scroll-behavior:smooth;
+ }
+body
+{
+	background:linear-gradient(45deg,orange,white,green);
+	text-align:center;
+}
+#link
+{
+	position:sticky;
+	top:0px;
+}
+div a
+{
+ color:white;
+ background:linear-gradient(45deg,magenta,grey,mediumslateblue);
+ margin:30px;
+ padding:7px;
+ width: 150px;
+ text-transform:capitalize;
+ text-decoration:none;
+ border-radius: 20px;
+ display:inline-block;
+}
+
+div a:hover{
+	box-shadow: 0 0 10px red;
+	border-radius: 40px;
+}
+h1
+{
+	background:linear-gradient(45deg,cornflowerblue,crimson,darkcyan);
+	font-family:"comic sans ms",snas-serif;
+}
+h2
+{
+	padding: 10px;
+	color:white;
+	border-top-right-radius:30px;
+	border-top-left-radius:30px;
+	border:10px solid black;
+	border-bottom:3px solid white;
+	width:300px;
+	margin-left:600px;
+	background:black;
+	text-decoration:underline;
+	text-transform:capitalize;
+
+	}
+img
+{
+	width:100%;
+	border:2px solid black;
+	border-radius:60px;
+}
+ p
+{
+	text-align:justify;
+	word-spacing:10px;
+	letter-spacing:2px;
+	border-radius:5px;
+	padding:10px;
+	background:linear-gradient(90deg,aquamarine,grey,aqua); 
+}
+footer
+{
+	font-size:50px;
+	text-decoration: underline;
+	font-family:"comic sans ms",snas-serif;
+}
